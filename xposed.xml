@@ -1,0 +1,5 @@
+<manifest>
+  <remote name="rovo" fetch="https://github.com/rovo89/" />
+
+  <project path="external/xposed" name="Xposed" revision="master" remote="rovo" />
+</manifest>

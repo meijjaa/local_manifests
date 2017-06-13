@@ -1,0 +1,14 @@
+<manifest>
+  <remote name="meijjaa" fetch="https://github.com/meijjaa/" />
+  <remote name="underscoremone" fetch="https://github.com/underscoremone/" />
+  <remote name="Diload" fetch="https://github.com/underscoremone/" />
+  
+  <remove-project name="LineageOS/android_device_samsung_trltexx"/>
+  <remove-project name="LineageOS/android_kernel_samsung_trlte"/>
+  <remove-project name="LineageOS/android_device_samsung_trlte-common"/>
+  
+  <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" revision="cm-14.1" remote="underscoremone" />
+  <project path="device/samsung/trltexx" name="android_device_samsung_trltexx" revision="cm-14.1" remote="underscoremone" />
+  <project path="kernel/samsung/trlte" name="android_kernel_samsung_trlte" revision="cm-14.1" remote="underscoremone" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung_trlte" revision="cm-14.1" remote="underscoremone" />
+</manifest>

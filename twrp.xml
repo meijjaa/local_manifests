@@ -1,0 +1,6 @@
+<manifest>
+  <remote name="twrp" fetch="https://github.com/omnirom/" />  
+  <!-- <remove-project name="LineageOS/android_bootable_recovery" />  -->
+   <project name="android_bootable_recovery" path="bootable/recovery-twrp" revision="android-7.1" remote="twrp"/>
+   <project name="android_external_busybox" path="external/busybox" revision="android-7.1" remote="twrp"/>   
+</manifest>
