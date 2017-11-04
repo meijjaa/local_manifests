@@ -2,7 +2,7 @@
   <remote name="khadas" fetch="https://github.com/khadas/" />
   <remote name="meijjaa" fetch="https://github.com/meijjaa/" />
 
-  <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+  <!--<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />-->
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
 
   <remove-project name="LineageOS/android_bionic" />
@@ -31,64 +31,59 @@
 
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
 
-  <project name="android_vendor_amlogic_external_ffmpeg" path="vendor/amlogic/external/ffmpeg" revision="1d93d3d9e5abb6b0e3dd0a53003624c983b59c43" remote="khadas"/>
+  <project name="android_vendor_amlogic_external_ffmpeg" path="vendor/amlogic/external/ffmpeg" revision="Nougat" remote="khadas"/>
   
 <!--
   <project name="android_device_khadas" path="device/khadas" revision="Nougat" remote="khadas"/>
 --> 
-  <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" revision="87a7315ba2c6caa22ebdaae370de6b58052c3c4a" remote="khadas"/>
-  <project name="android_hardware_amlogic_audio_dia_remote" path="hardware/amlogic/audio_dia_remote" revision="5a51d5a721d865eb9371b82acfa5ded4f32e0740" remote="khadas"/>
-  <project name="android_hardware_amlogic_camera" path="hardware/amlogic/camera" revision="b62c3b3fc7a40ca2ce5c0c96bb39ed3df6d8b2ca" remote="khadas"/>
-  <project name="android_hardware_amlogic_consumerir" path="hardware/amlogic/consumerir" revision="d690fc2b76539edc73f5e1715c3bf1ef75796c08" remote="khadas"/>
-  <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc" revision="ed1798fd4ba7dfb801ae5cb9ecce69f3877c18af" remote="khadas"/>
-  <project name="android_hardware_amlogic_hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="7da514c6ad71a6c098bb1db1315498e404ca6c36" remote="khadas"/>
-  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" revision="01b18f1aabc574b03d8917ac1a59476c8f39951e" remote="khadas"/>
-  <project name="android_hardware_amlogic_keymaster" path="hardware/amlogic/keymaster" revision="e3901f15da1676010c64f7556a1c91671edef125" remote="khadas"/>
-  <project name="android_hardware_amlogic_libbt" path="hardware/amlogic/libbt" revision="732b0aa481ff6e49c47becfbe70b379a1fb75c84" remote="khadas"/>
-  <project name="android_hardware_amlogic_lights" path="hardware/amlogic/lights" revision="a782a6a49bc287778ab33fd7e302c157725301fa" remote="khadas"/>
-  <project name="android_hardware_amlogic_memtrack" path="hardware/amlogic/memtrack" revision="632faeb92c73351f5ce19074f380003c35efbfa7" remote="khadas"/>
-  <project name="android_hardware_amlogic_nand" path="hardware/amlogic/nand" revision="ccf9efd9595ab79cc81c85ced5058784e68eeeda" remote="khadas"/>
-  <project name="android_hardware_amlogic_pmu" path="hardware/amlogic/pmu" revision="97738d04cd4155f62a2a3a794a24c8a23a745d6e" remote="khadas"/>
-  <project name="android_hardware_amlogic_power" path="hardware/amlogic/power" revision="02f31d9bdd32d45a65475988836918120fb2ebce" remote="khadas"/>
-  <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source" revision="f0604ca89d90261e22d25cccda411130ff795888" remote="khadas"/>
-  <project name="android_hardware_amlogic_sensors" path="hardware/amlogic/sensors" revision="b963ffc206c8a1ec137410e7cea5265235c64ffc" remote="khadas"/>
-  <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal" revision="e3cf13d1096d3c2981be409d2a34a011fc8a404c" remote="khadas"/>
-  <project name="android_hardware_amlogic_touch" path="hardware/amlogic/touch" revision="f432bdc3c2f4804f97dbfa77b7e92fcec6133880" remote="khadas"/>
-  <project name="android_hardware_amlogic_usbctrl" path="hardware/amlogic/usbctrl" revision="d180f7192127cc9cbe505f21ac8ffe8e494fc473" remote="khadas"/>
-  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi" revision="b8b82dc87e9c1e74c0a07fbdcb2cfb28a259d660" remote="khadas"/>
-  <project name="android_hardware_arm_gpu" path="hardware/arm/gpu" revision="4a45481151ff215ed5d5f2b74d23b9e620aa1e88" remote="khadas"/> 
-  <project name="android_hardware_qcom_msm8996" path="hardware/qcom/msm8996" revision="c777263d08eef91975bcc343f433cacdc93185c1" remote="khadas"/>
-  <project name="android_hardware_realtek_bluetooth" path="hardware/realtek/bluetooth" revision="f783bcf7ce0fc2cb9747fdd67de6014ba0e691ce" remote="khadas"/>
-  <project name="android_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx" revision="ec79ffde2541c600d2d74ea318b3394e718b9df5" remote="khadas"/>
+  <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_audio_dia_remote" path="hardware/amlogic/audio_dia_remote" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_camera" path="hardware/amlogic/camera" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_consumerir" path="hardware/amlogic/consumerir" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_keymaster" path="hardware/amlogic/keymaster" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_libbt" path="hardware/amlogic/libbt" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_lights" path="hardware/amlogic/lights" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_libaudio" path="hardware/amlogic/libaudio" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_media" path="hardware/amlogic/media" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_memtrack" path="hardware/amlogic/memtrack" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_nand" path="hardware/amlogic/nand" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_pmu" path="hardware/amlogic/pmu" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_power" path="hardware/amlogic/power" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_sensors" path="hardware/amlogic/sensors" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_touch" path="hardware/amlogic/touch" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_usbctrl" path="hardware/amlogic/usbctrl" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_arm_gpu" path="hardware/arm/gpu" revision="Nougat" remote="khadas"/> 
+  <project name="android_hardware_qcom_msm8996" path="hardware/qcom/msm8996" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_realtek_bluetooth" path="hardware/realtek/bluetooth" revision="Nougat" remote="khadas"/>
+  <project name="android_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx" revision="Nougat" remote="khadas"/>
  
-  <project name="android_vendor_amlogic_apps_AppInstaller" path="vendor/amlogic/apps/AppInstaller" revision="bda843b6fbc434e8778399314ed9d463aad703a8" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_DLNA" path="vendor/amlogic/apps/DLNA" revision="07eb8c968517cf4aef1d3b6acced1de17c7a9630" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_Dig" path="vendor/amlogic/apps/Dig" revision="187f03801b35d346e13e39ed2d75d778cb75b7a9" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="896e49cbca063d7f0d62bcc514206023515ac602" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" remote="khadas"/>
-  <project name="android_vendor_amlogic_frameworks_av_LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="b35f162631b37daca2632fc8916075953f07d10f" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="41ab2670ded4387e68e3f76a14ef28da6dba9cbf" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_Miracast" path="vendor/amlogic/apps/Miracast" revision="87512d3e3f7a08bd9a0417cd1de1c4c8b61459eb" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_NativeImagePlayer" path="vendor/amlogic/apps/NativeImagePlayer" revision="1f6bb844b1cf1c46d0d84c50742b2e417c9a5f3c" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_OTAUpgrade2" path="vendor/amlogic/apps/OTAUpgrade2" revision="8c9925e2053f88086fbc5a56b7219a68c0a00e9a" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_PPPoE" path="vendor/amlogic/apps/PPPoE" revision="eb3cce036c65c42c7c7e9e98a8d22769af68b31e" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_RemoteIME" path="vendor/amlogic/apps/RemoteIME" revision="120e57956386e48f1f31a0c0db8fa0394f8d6ab9" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_SubTitle" path="vendor/amlogic/apps/SubTitle" revision="93d4808b6868d07cb3a92982f521ce004142c9bf" remote="khadas"/>
-  <project name="android_vendor_amlogic_apps_VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="4a3f4ad15d6e610466af4cdd739ef64a4c2e6550" remote="khadas"/>
-  <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f" remote="khadas"/>
-  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="c1257b29f622eac1de2dd3e24518f10087dce94b" remote="khadas"/>
-  <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/frameworks/av" revision="76dc6d6123110ef84a6188510579e30df659baeb" remote="khadas"/>
-  <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/frameworks/pppoe" revision="4ca96dbb5524029905723cda1b4e4b0407c03f7b" remote="khadas"/>
-  <project name="android_vendor_amlogic_system_modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" remote="khadas"/>
-  <project name="android_vendor_amlogic_prebuilt" path="vendor/amlogic/prebuilt" revision="6daf5f69852289952db137ff94aa787569d2ea2e" remote="khadas"/>
-  <project name="android_vendor_amlogic_prebuilt_libmedia" path="vendor/amlogic/prebuilt/libmedia" revision="12a0bdc145912b50181874fe43541dc497685c84" remote="khadas"/>
-  <project name="android_vendor_amlogic_prebuilt_libstagefrighthw" path="vendor/amlogic/prebuilt/libstagefrighthw" revision="5c2a9ba1b8dae9b91137c255c711968071765c9f" remote="khadas"/>
-  <project name="android_vendor_amlogic_system" path="vendor/amlogic/system" revision="4ee45c349e66d3af128643599bd4e3b82ccf5974" remote="khadas"/>
-  <project name="android_vendor_amlogic_tools" path="vendor/amlogic/tools" revision="9d17c6848856a0d930c01a961a5f80f8a579fd52" remote="khadas"/>
-  <project name="android_vendor_broadcom_btusb" path="vendor/broadcom/btusb" revision="3935905e634318e3b3affbd569aea6dedb433eb1" remote="khadas"/>
-  <project name="android_vendor_widevine" path="vendor/widevine" revision="3e546d9ce2615fa52f0cf3d1a693da840bb04e82" remote="khadas"/>
-  <project name="android_vendor_amlogic_fbc3-release" path="vendor/amlogic/fbc3-release" revision="73dd771bab90056b3b3ae4b26abd4928890ed1e6" remote="khadas"/>
-  <project name="android_vendor_amlogic_external_libaudioeffect" path="vendor/amlogic/external/libaudioeffect" revision="b5c1311fa751a19f0f01ac8135ea63ea138800a2" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_DLNA" path="vendor/amlogic/apps/DLNA" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_Dig" path="vendor/amlogic/apps/Dig" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_frameworks_av_LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_Miracast" path="vendor/amlogic/apps/Miracast" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_NativeImagePlayer" path="vendor/amlogic/apps/NativeImagePlayer" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_RemoteIME" path="vendor/amlogic/apps/RemoteIME" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_SubTitle" path="vendor/amlogic/apps/SubTitle" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_apps_VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="Nougat" remote="khadas"/>
+ <project name="android_vendor_amlogic_external_libiconv" path="vendor/amlogic/external/libiconv" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/frameworks/av" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_prebuilt" path="vendor/amlogic/prebuilt" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_prebuilt_libmedia" path="vendor/amlogic/prebuilt/libmedia" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_prebuilt_libstagefrighthw" path="vendor/amlogic/prebuilt/libstagefrighthw" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_system" path="vendor/amlogic/system" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_tools" path="vendor/amlogic/tools" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_broadcom_btusb" path="vendor/broadcom/btusb" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_widevine" path="vendor/widevine" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_fbc3-release" path="vendor/amlogic/fbc3-release" revision="Nougat" remote="khadas"/>
+  <project name="android_vendor_amlogic_external_libaudioeffect" path="vendor/amlogic/external/libaudioeffect" revision="Nougat" remote="khadas"/>
 </manifest>
