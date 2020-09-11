@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="meijjaa" fetch="https://github.com/meijjaa"  />
+<remove-project name="u-boot" />
+<remove-project name="android_device_khadas" />
+<remove-project name="linux" />
+
+<project path="uboot" name="u-boot" revision="s905x" remote="meijjaa" />
+<project path="device/khadas" name="android_device_khadas" revision="s905x" remote="meijjaa" />
+<project path="common" name="linux-aml" revision="s905x" remote="meijjaa" />
+</manifest>

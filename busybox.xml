@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="los" fetch="https://github.com/LineageOS"  />
+<remote name="x86" fetch="https://git.code.sf.net/p/android-x86"  />
+
+<remove-project name="android_vendor_amlogic_external_busybox" />
+<!--<project path="external/busybox" name="android_external_busybox" clone-depth="1" revision="cm-14.1" remote="los" />-->
+<project path="external/busybox" name="external_busybox" clone-depth="1" revision="oreo-x86" remote="x86" />
+</manifest>
